@@ -1,0 +1,7 @@
+The Login button was clicked at 2019 - 05 - 31 12: 38: 13 AM
+The User was logged in at 2019 - 05 - 31 12: 38: 13 AM
+The Path of the encrypted file was selected at 2019 - 05 - 31 12: 38: 19 AM
+The path to store the decrypted the file was select at 2019 - 05 - 31 12: 38: 22 AM
+The verify button was clicked at 2019 - 05 - 31 12: 38: 26 AM
+The verification was done and the file was decrypted at 2019 - 05 - 31 12: 38: 26 AM
+The Register button was clicked at 2019 - 05 - 31 1: 19: 01 AM

@@ -1,0 +1,47 @@
+﻿<Window x:Name="main_window_" x:Class="ProjectNeverPass.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectNeverPass"
+        mc:Ignorable="d"
+        Title="Login Window" Height="450" Width="800" Background="#FF181818" Icon="Resources/PROJECT NEVERPASS.png" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="205*"/>
+            <ColumnDefinition Width="191*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="254" VerticalAlignment="Top" Width="254" Source="Resources/Path 4.png" Margin="201,-53,-73,0" Grid.Column="1"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="246" Margin="165,276,-29,-103" VerticalAlignment="Top" Width="246" Source="Resources/Path 2.png"/>
+        <Image HorizontalAlignment="Left" Height="168" Margin="307,33,0,0" VerticalAlignment="Top" Width="156" Source="Resources/VERSION 1.7.png" Grid.ColumnSpan="2"/>
+
+        <Button x:Name="Login_button" Content="Login " HorizontalAlignment="Left" Margin="346,232,0,0" VerticalAlignment="Top" Width="76" Click="Login_button_Click" Grid.ColumnSpan="2" Background="White" BorderBrush="#00000000" Foreground="Black" Height="25"/>
+        <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" Margin="325,191,0,0" VerticalAlignment="Top" Width="120" Height="23" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="username_textbox" HorizontalAlignment="Left" Height="23" Margin="325,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button x:Name="Register_button" Content="Register" HorizontalAlignment="Left" Margin="347,262,0,0" VerticalAlignment="Top" Width="75" Click="Register_button_Click" Background="White" BorderBrush="#00000000" Height="25" Grid.ColumnSpan="2" IsEnabled="False"/>
+        <TextBox x:Name="Logfile" HorizontalAlignment="Left" Height="23" Margin="173,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" Grid.ColumnSpan="2"/>
+        <Button x:Name="Log_Select" Content="Select " HorizontalAlignment="Left" Margin="347,351,0,0" VerticalAlignment="Top" Width="75" Click="Log_Select_Click" Background="White" BorderBrush="#00000000" Height="25" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="296,0,0,0" VerticalAlignment="Top" Width="180" Source="Resources/PROJECT NEVERPASS.png" Grid.ColumnSpan="2"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="42" Margin="307,16,0,0" VerticalAlignment="Top" Width="156" Source="Resources/PASSWORD MANAGER.png"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="66,101,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="334,119,0,0" VerticalAlignment="Top" Width="100" Source="Resources/USERNAME.png"/>
+        <Image HorizontalAlignment="Left" Height="20" Margin="334,170,0,0" VerticalAlignment="Top" Width="100" Source="Resources/PASSWORD.png" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="338" Margin="-76,224,0,-143" VerticalAlignment="Top" Width="338" Source="Resources/Path 3.png"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="254" Margin="153,264,-25,-99" VerticalAlignment="Top" Width="254" Source="Resources/Path 8.png"/>
+        <Image HorizontalAlignment="Left" Height="395" Margin="-77,185,0,-161" VerticalAlignment="Top" Width="401" Source="Resources/Path 7.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.621"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="270" Margin="-51,-46,0,0" VerticalAlignment="Top" Width="270" Source="Resources/Path 1.png"/>
+        <Image HorizontalAlignment="Left" Height="276" VerticalAlignment="Top" Width="276" Source="Resources/Path 6.png" Grid.Column="1" Margin="179,-53,-73,0"/>
+        <Image HorizontalAlignment="Left" Height="280" VerticalAlignment="Top" Width="280" Margin="-42,-39,0,0" Source="Resources/Path 5.png"/>
+        <Button x:Name="Manual" Content="Manual" HorizontalAlignment="Left" Margin="347,292,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="Manual_Click"/>
+
+    </Grid>
+</Window>
